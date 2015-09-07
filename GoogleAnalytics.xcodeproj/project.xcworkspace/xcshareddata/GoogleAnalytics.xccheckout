@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9AEBB6D1-B29A-4A6B-80C8-9E37C9E3592E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GoogleAnalytics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A2B3CEF888ECBAF92A3E236177401EE84494D1BF</key>
+		<string>https://github.com/hadami/GoogleAnalytics-SDK-for-iOS.git</string>
+		<key>FF9122DF702D63E344073A17451DEFB21271D01F</key>
+		<string>https://github.com/allwinware/ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GoogleAnalytics.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A2B3CEF888ECBAF92A3E236177401EE84494D1BF</key>
+		<string>../..</string>
+		<key>FF9122DF702D63E344073A17451DEFB21271D01F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hadami/GoogleAnalytics-SDK-for-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A2B3CEF888ECBAF92A3E236177401EE84494D1BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF9122DF702D63E344073A17451DEFB21271D01F</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A2B3CEF888ECBAF92A3E236177401EE84494D1BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GoogleAnalytics</string>
+		</dict>
+	</array>
+</dict>
+</plist>

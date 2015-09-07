@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89EAADDE1B9D742A00D5598E /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 89EAADDD1B9D742A00D5598E /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89EAADE41B9D742A00D5598E /* GoogleAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EAADD81B9D742A00D5598E /* GoogleAnalytics.framework */; };
+		89EAADEB1B9D742A00D5598E /* GoogleAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EAADEA1B9D742A00D5598E /* GoogleAnalyticsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89EAADE51B9D742A00D5598E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89EAADCF1B9D742A00D5598E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89EAADD71B9D742A00D5598E;
+			remoteInfo = GoogleAnalytics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89EAADD81B9D742A00D5598E /* GoogleAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EAADDC1B9D742A00D5598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EAADDD1B9D742A00D5598E /* GoogleAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleAnalytics.h; sourceTree = "<group>"; };
+		89EAADE31B9D742A00D5598E /* GoogleAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EAADE91B9D742A00D5598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EAADEA1B9D742A00D5598E /* GoogleAnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EAADD41B9D742A00D5598E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EAADE01B9D742A00D5598E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EAADE41B9D742A00D5598E /* GoogleAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EAADCE1B9D742A00D5598E = {
+			isa = PBXGroup;
+			children = (
+				89EAADDA1B9D742A00D5598E /* GoogleAnalytics */,
+				89EAADE71B9D742A00D5598E /* GoogleAnalyticsTests */,
+				89EAADD91B9D742A00D5598E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EAADD91B9D742A00D5598E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EAADD81B9D742A00D5598E /* GoogleAnalytics.framework */,
+				89EAADE31B9D742A00D5598E /* GoogleAnalyticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EAADDA1B9D742A00D5598E /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				89EAADDD1B9D742A00D5598E /* GoogleAnalytics.h */,
+				89EAADDB1B9D742A00D5598E /* Supporting Files */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		89EAADDB1B9D742A00D5598E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89EAADDC1B9D742A00D5598E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89EAADE71B9D742A00D5598E /* GoogleAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				89EAADEA1B9D742A00D5598E /* GoogleAnalyticsTests.swift */,
+				89EAADE81B9D742A00D5598E /* Supporting Files */,
+			);
+			path = GoogleAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		89EAADE81B9D742A00D5598E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89EAADE91B9D742A00D5598E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89EAADD51B9D742A00D5598E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EAADDE1B9D742A00D5598E /* GoogleAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89EAADD71B9D742A00D5598E /* GoogleAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EAADEE1B9D742A00D5598E /* Build configuration list for PBXNativeTarget "GoogleAnalytics" */;
+			buildPhases = (
+				89EAADD31B9D742A00D5598E /* Sources */,
+				89EAADD41B9D742A00D5598E /* Frameworks */,
+				89EAADD51B9D742A00D5598E /* Headers */,
+				89EAADD61B9D742A00D5598E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAnalytics;
+			productName = GoogleAnalytics;
+			productReference = 89EAADD81B9D742A00D5598E /* GoogleAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89EAADE21B9D742A00D5598E /* GoogleAnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EAADF11B9D742A00D5598E /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTests" */;
+			buildPhases = (
+				89EAADDF1B9D742A00D5598E /* Sources */,
+				89EAADE01B9D742A00D5598E /* Frameworks */,
+				89EAADE11B9D742A00D5598E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89EAADE61B9D742A00D5598E /* PBXTargetDependency */,
+			);
+			name = GoogleAnalyticsTests;
+			productName = GoogleAnalyticsTests;
+			productReference = 89EAADE31B9D742A00D5598E /* GoogleAnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EAADCF1B9D742A00D5598E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = chloe;
+				TargetAttributes = {
+					89EAADD71B9D742A00D5598E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					89EAADE21B9D742A00D5598E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 89EAADD21B9D742A00D5598E /* Build configuration list for PBXProject "GoogleAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89EAADCE1B9D742A00D5598E;
+			productRefGroup = 89EAADD91B9D742A00D5598E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EAADD71B9D742A00D5598E /* GoogleAnalytics */,
+				89EAADE21B9D742A00D5598E /* GoogleAnalyticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89EAADD61B9D742A00D5598E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EAADE11B9D742A00D5598E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EAADD31B9D742A00D5598E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EAADDF1B9D742A00D5598E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EAADEB1B9D742A00D5598E /* GoogleAnalyticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89EAADE61B9D742A00D5598E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89EAADD71B9D742A00D5598E /* GoogleAnalytics */;
+			targetProxy = 89EAADE51B9D742A00D5598E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89EAADEC1B9D742A00D5598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89EAADED1B9D742A00D5598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89EAADEF1B9D742A00D5598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GoogleAnalytics/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89EAADF01B9D742A00D5598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GoogleAnalytics/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		89EAADF21B9D742A00D5598E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89EAADF31B9D742A00D5598E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAnalyticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EAADD21B9D742A00D5598E /* Build configuration list for PBXProject "GoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EAADEC1B9D742A00D5598E /* Debug */,
+				89EAADED1B9D742A00D5598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EAADEE1B9D742A00D5598E /* Build configuration list for PBXNativeTarget "GoogleAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EAADEF1B9D742A00D5598E /* Debug */,
+				89EAADF01B9D742A00D5598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EAADF11B9D742A00D5598E /* Build configuration list for PBXNativeTarget "GoogleAnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EAADF21B9D742A00D5598E /* Debug */,
+				89EAADF31B9D742A00D5598E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89EAADCF1B9D742A00D5598E /* Project object */;
+}
